@@ -7,6 +7,6 @@
     <DTS:ConnectionManager
       DTS:ConnectRetryCount="1"
       DTS:ConnectRetryInterval="5"
-      DTS:ConnectionString="Data Source=localhost;Initial Catalog=AdventureWorks2022;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Tradim_Demo-{3008146E-E57D-4E41-A439-96F066A08205}localhost.AdventureWorks2022;Auto Translate=False;" />
+      DTS:ConnectionString="Data Source=localhost;Initial Catalog=AdventureWorksDW2022;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Tradim_Demo-{3008146E-E57D-4E41-A439-96F066A08205}localhost.AdventureWorks2022;" />
   </DTS:ObjectData>
 </DTS:ConnectionManager>
