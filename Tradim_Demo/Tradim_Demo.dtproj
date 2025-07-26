@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">WINDOWS10</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJkyaXH1CHkaZSWwDhWrtiAAAAAACAAAAAAAQZgAAAAEAACAAAAC2OFFn3vGch1QzSwavP06gPEecjUZYkD9YWo2PAailFwAAAAAOgAAAAAIAACAAAADZWrOmr5n+pCxwJcyMZ9+u8XnxSAuE5i7ofn10Od4ccJAAAAACHMF7HKT6J4GtoIKAssV3KPivT6vMbFxfgxETQQGfkjhNYO75jOfjXwhaux+tCEmgWj8ZlP/PEPe+tfqmu0+f91ZaNg0gg3YIzXp7to0GwZ+aoGtMuLUMJUrovQfnsixj6Jzr1XPEsJO9Fk26Zctt6w+J38q5IsZkLR6lZQiUE7EnS6d8RY30op6OZ0zB0BBAAAAAopGQnDfX4bfUJ4OQdpBkJNQeKmLeLbtngf+Uy1C3jHhqdicg00pchSmD841QKXsXR/sMQU/8GPKvJHNr5IV7pg==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJkyaXH1CHkaZSWwDhWrtiAAAAAACAAAAAAAQZgAAAAEAACAAAAD9+0gg266fEKBJMaYCdH65CMNt3ypDYNRNEElGWdCFKQAAAAAOgAAAAAIAACAAAACYKCJG9RkLSNV34NaM8vvobM/lfggj+TGgsviF+wQAP5AAAAAzCMpxCAIABcf03GBZNGZb+9zFQ1rSoB1uq/6NT1S1aaEsj992JExxwvSIUxoHGyekfrfx6W2xOi166mseTFaUlNlucAE79sqGz/tB1cCwbRonuo8D9rf+clAey7OFsB/q62hRaEyT90O2Ad01pzmyuq39ca0osPZKqn4tEXBBah8eMLnAiXpzTuppL59WQEpAAAAAkg9ruz6M74nfGRxoQRbzHSawW56/3fN71nPK4LFOMuuBoHdZ3FFAklKY56qSG1VfPUMwb1/8hz1KieYY7JIsAA==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -38,7 +38,7 @@
         </SSIS:ConnectionManagers>
         <SSIS:DeploymentInfo>
           <SSIS:ProjectConnectionParameters>
-            <SSIS:Parameter SSIS:Name="CM.Flat File Connection Manager.AlwaysCheckForRowDelimiters">
+            <SSIS:Parameter SSIS:Name="CM.Sample Flat File Source Data.AlwaysCheckForRowDelimiters">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -53,7 +53,7 @@
                 <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.Flat File Connection Manager.CodePage">
+            <SSIS:Parameter SSIS:Name="CM.Sample Flat File Source Data.CodePage">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -68,7 +68,7 @@
                 <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.Flat File Connection Manager.ColumnNamesInFirstDataRow">
+            <SSIS:Parameter SSIS:Name="CM.Sample Flat File Source Data.ColumnNamesInFirstDataRow">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -83,7 +83,7 @@
                 <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.Flat File Connection Manager.ConnectByProxy">
+            <SSIS:Parameter SSIS:Name="CM.Sample Flat File Source Data.ConnectByProxy">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -98,7 +98,7 @@
                 <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.Flat File Connection Manager.ConnectionString">
+            <SSIS:Parameter SSIS:Name="CM.Sample Flat File Source Data.ConnectionString">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -113,7 +113,7 @@
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.Flat File Connection Manager.DataRowsToSkip">
+            <SSIS:Parameter SSIS:Name="CM.Sample Flat File Source Data.DataRowsToSkip">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -128,7 +128,7 @@
                 <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.Flat File Connection Manager.Format">
+            <SSIS:Parameter SSIS:Name="CM.Sample Flat File Source Data.Format">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -143,7 +143,7 @@
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.Flat File Connection Manager.HeaderRowDelimiter">
+            <SSIS:Parameter SSIS:Name="CM.Sample Flat File Source Data.HeaderRowDelimiter">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -159,7 +159,7 @@
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.Flat File Connection Manager.HeaderRowsToSkip">
+            <SSIS:Parameter SSIS:Name="CM.Sample Flat File Source Data.HeaderRowsToSkip">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -174,7 +174,7 @@
                 <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.Flat File Connection Manager.LocaleID">
+            <SSIS:Parameter SSIS:Name="CM.Sample Flat File Source Data.LocaleID">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -189,7 +189,7 @@
                 <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.Flat File Connection Manager.RowDelimiter">
+            <SSIS:Parameter SSIS:Name="CM.Sample Flat File Source Data.RowDelimiter">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -200,10 +200,12 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">
+                </SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.Flat File Connection Manager.TextQualifier">
+            <SSIS:Parameter SSIS:Name="CM.Sample Flat File Source Data.TextQualifier">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -218,7 +220,7 @@
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.Flat File Connection Manager.Unicode">
+            <SSIS:Parameter SSIS:Name="CM.Sample Flat File Source Data.Unicode">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -259,7 +261,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">Data Source=localhost;Initial Catalog=AdventureWorks2022;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Tradim_Demo-{3008146E-E57D-4E41-A439-96F066A08205}localhost.AdventureWorks2022;Auto Translate=False;</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">Data Source=localhost;Initial Catalog=AdventureWorksDW2022;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Tradim_Demo-{3008146E-E57D-4E41-A439-96F066A08205}localhost.AdventureWorks2022;</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -319,7 +321,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">AdventureWorks2022</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">AdventureWorksDW2022</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -389,10 +391,10 @@
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">4</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">20</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{0D92273D-DFC8-40F9-96A7-183886F0CECB}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{6E021500-ECFE-4BF0-89FC-292483C13D4B}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -423,7 +425,13 @@
         <LinkedAzureSSISIR />
         <LinkedAzureStorage />
         <RemoteExecutionFolder />
-        <ParameterConfigurationValues />
+        <ParameterConfigurationValues>
+          <ConfigurationSetting>
+            <Id>LastModifiedTime</Id>
+            <Name>LastModifiedTime</Name>
+            <Value xsi:type="xsd:dateTime">2025-07-26T05:45:26.6220214Z</Value>
+          </ConfigurationSetting>
+        </ParameterConfigurationValues>
       </Options>
     </Configuration>
   </Configurations>
