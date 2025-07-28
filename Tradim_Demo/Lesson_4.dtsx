@@ -5,14 +5,14 @@
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="WINDOWS10"
   DTS:CreatorName="WINDOWS10\vboxuser"
-  DTS:DTSID="{F8E88486-8FC5-415B-A782-07C1D2B42846}"
+  DTS:DTSID="{29BC0FCD-FD23-4014-8C4B-60363DE59FFC}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="16.0.5685.2"
   DTS:LocaleID="1033"
   DTS:ObjectName="Lesson_4"
   DTS:PackageType="5"
-  DTS:VersionBuild="30"
-  DTS:VersionGUID="{E28A56E8-E5AD-4AE4-A396-9D076EF513CE}">
+  DTS:VersionBuild="31"
+  DTS:VersionGUID="{D6E0E0B3-8B0E-4EAA-B8B6-AA5F15E67413}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
